@@ -1,1 +1,27 @@
-
+1. import the scanner
+2. Ask user to input name using "Hello, what is your name?"
+3. Output the options to the user
+4. Ask user to input decision
+5. set balance to 212.90
+6. set withdrawn total to 0
+7. set deposited total to 0
+8. while decision is not equal to 4
+    a. if decision is equal to 1
+      i. Output balance to user
+    b. Otherwise if decision is equal to 2
+     i.Ask user to input amount to be withdrawn
+     ii.Subtract the withdraw amount from the balance and update balance 
+     iii. add the withdraw amount to the total withdrawn amount
+     iv. Output current balance to user
+    c. Otherwise if decision is equal to 3
+     i. Ask user to input amount to deposit
+     ii. Add deposit amount to the balance and update balance
+     iii. Add deposit amount to total deposit amount
+     iv. Output current balance to user
+    d. Output options to user and ask user to input next decision
+10. Ask user for receipt choice "thank you (name) for chhosing our ATM, would you like your receipt emailed or printed"
+11. if receipt choice is equals to emailed
+    a. Output"Okay, make sure to check your email shortly, goodbye!)
+12. Otherwise if receipt choice is equal to printed
+    a. Output total withdrawn and total deposited
+    b. Output Thank you (name) for choosing our ATM, have a nice day!)
